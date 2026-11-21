@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 75%;
+    background-color: #F6E8EA;
+}
+
+section{
+    margin: 20px 100px;
+}
+#profile-section,#edu-work-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* gap: 10px; */
+    justify-content: center;
+
+}
+
+/* .profile-image,.profile-details{
+    background-color: #C1B4B7;
+    height: 100px;
+} */
+
+.profile-image img {
+    width: 75%;
+    height: 100%;
+    border: 1px solid #C1B4B7;
+    padding: 5px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+.profile-details h1{
+    font-size: 80px;
+    font-family: "Agrave Pro", cursive;
+}
+
+.profile-details h2{
+    font-size: 40px;
+    font-family: "Playwrite FR Trad", cursive;
+}
+
+#my-profile-section h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: "Playwrite FR Trad", cursive;
+}
+
+.education ul li{
+    font-weight: bold;
+}
+.skill-section{
+    display: flex;
+    align-items: center;
+}
+.skill-sub{
+    margin: 0px 35px;
+}
+
+.skill-sub p{
+    font-size: 15px;
+}
+
+#contact-section{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 33% 33% 33%;
+}
